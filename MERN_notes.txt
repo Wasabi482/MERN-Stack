@@ -1,0 +1,23 @@
+cd backend
+npm init -y
+npm install express
+node server.js 
+npm install -g nodemon
+nodemon server.js
+
+"dev": "nodemon server.js"
+//put this inside package.json after the start 
+then
+npm run dev
+
+add the .env file to the git ignore file
+
+ctrl+c then
+npm install dotenv
+
+after setting up the mongodb
+on the terminal 
+npm install mongoose
+
+mongoose is also known as an ODM library. Object Data Modelling.
+
